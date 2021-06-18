@@ -1,0 +1,23 @@
+*
+{
+    margin=0;
+    border:0;
+    
+
+.tide h1{
+    text-transform:capitalize;
+    color: midnightblue;
+    font-size: 30px;
+}
+.tide{
+    text-transform: capitalize;
+    font-size:20px;
+    color:midnightblue;
+}
+.logo h1{
+    text-align: center;
+   
+}
+.card{
+    width:600px;
+}

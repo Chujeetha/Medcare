@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: times new roman;
+}
+.imgg{
+    background-image:linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0));
+    background-color: whitesmoke;
+}
+.container {
+    
+    width:1350px;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 50px;
+}
+.container img{
+    float:left;
+   
+    
+}
+.container h6{
+    float:left;
+    margin-left: 8px;
+    text-indent:inherit;
+}
+.container h2{
+    
+    font-size: auto;
+       
+}
+.container h3{
+    padding-left: 5px;
+    font-weight: 100;
+    font-size: 22px;
+}
+.wrapper{
+    width: 1250px;
+    padding: 50px;
+   
+}
+
+.title{
+    text-align: justify;
+    margin-bottom: 30px;
+}
+.title h2{
+    text-transform: capitalize;
+    font-size: 36px;
+    position:relative;
+    display:inline-block;
+    text-decoration: underline;
+    text-decoration-color: pink;
+    padding-bottom: 10px;
+    
+}
+.tit h4 span{
+    padding: 30px;
+    display: block;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: pink;
+ 
+    font-style: italic;
+    margin-bottom: -10px;
+}
+.food{
+    width: 1100px;
+    padding-right: 100px;
+    padding-left: 150px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.single-menu{
+    flex-basis: 450px;
+    margin-bottom:20px;
+    padding-bottom: 20px;
+    border-bottom:1px solid darkblue;
+   
+}
+.single-menu:nth-child(9),.single-menu:nth-child(10){
+    border-bottom: 0;
+}
+.single-menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+}
+.single-menu img{
+    max-width:180px;
+    margin-right: 30px;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 3px;
+
+}
+
+.single-menu h4{
+    text-transform: capitalize;
+    font-size:22px;
+    border-bottom:1px dashed blue;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+.single-menu h4 span{
+    float: right;
+    color:orange;
+    font-style: italic;
+}
+.precautions img{
+    float:left;
+    color: steelblue;
+    
+}
+.precautions h1{
+    font-size:48px;
+}
+.inside h1{
+    text-transform: capitalize;
+    font-size: 40px;
+    width:1200px;
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-bottom: 15px;
+    text-align: left;
+}
+.precautions ul li{
+    font-size:30px;
+     width:1200px;
+    padding-right: 100px;
+     text-transform: capitalize;
+    text-align: left;
+}
+.handwashing img{
+   padding-right: 20px;
+}
+.handwashing h1{
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.handwashing p{
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-size:30px;
+    
+    
+}
+.gif{
+    width:1200px;
+}
+.hands h1{
+    font-size:30px;
+    border-bottom: 10px;
+}
+.hands h2{
+    font-size: 20px;
+    border-bottom: 5px;
+}
+
+.hands ul li {
+    text-transform: capitalize;
+    margin-left: 20px;
+    font-size:20px;
+    margin-bottom: 5px;
+}
+.distance ul li{
+    text-transform: capitalize;
+    font-size: 20px;
+    padding-bottom: 2px;
+    
+}
